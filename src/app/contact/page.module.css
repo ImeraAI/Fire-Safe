@@ -1,0 +1,30 @@
+.main { background: linear-gradient(135deg, #f5f6f8, #f1f3f6); padding-block: 72px 80px; }
+.layout { display: grid; grid-template-columns: .9fr 1.1fr; grid-template-areas: 'intro form' 'support form'; gap: 32px 80px; align-items: start; }
+.intro { grid-area: intro; padding-top: 24px; }
+.intro h1 { font-size: clamp(40px, 4.4vw, 64px); line-height: 1.1; letter-spacing: -2px; margin: 18px 0 22px; }
+.intro h1 span { color: var(--navy); }
+.intro>p { max-width: 390px; font-size: 16px; line-height: 1.7; }
+.form { grid-area: form; min-width: 0; }
+.form :global(.lead-form) { border-radius: 20px; padding: 36px; box-shadow: 0 16px 48px #052c3408; }
+.support { grid-area: support; min-width: 0; }
+.contactLinks { border-top: 1px solid #d3dae3; }
+.contactLinks>a { display: flex; align-items: center; gap: 16px; padding-block: 20px; min-height: 72px; border-bottom: 1px solid #d3dae3; }
+.contactLinks>a>svg { color: var(--navy); flex-shrink: 0; width: 22px; }
+.contactLinks>a>svg:last-child { margin-left: auto; width: 18px; }
+.contactLinks small { display: block; color: var(--muted); font-size: 12px; margin-bottom: 5px; }
+.contactLinks strong { font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
+.contactLinks>a:hover strong { color: var(--navy); }
+.contactLinks>a:focus-visible { outline: 2px solid var(--navy); outline-offset: 4px; }
+.assurance { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; line-height: 1.6; margin-block: 22px; }
+.assurance svg { flex-shrink: 0; width: 19px; color: var(--navy); }
+@media(max-width:900px) { .layout { gap: 28px 36px; } }
+@media(max-width:700px) {
+  .main { padding-block: 30px 44px; }
+  .layout { grid-template-columns: 1fr; grid-template-areas: 'intro' 'form' 'support'; gap: 24px; }
+  .intro { padding-top: 0; }
+  .intro h1 { font-size: 38px; letter-spacing: -1.2px; margin: 12px 0; }
+  .intro>p { font-size: 14px; line-height: 1.6; max-width: 340px; }
+  .form :global(.lead-form) { padding: 24px 20px; border-radius: 16px; }
+  .form :global(.form-heading h3) { font-size: 24px; margin-block: 8px; }
+  .form :global(.form-heading p) { margin-bottom: 18px; }
+}

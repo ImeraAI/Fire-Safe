@@ -1,0 +1,122 @@
+{
+  "fire-risk-assessment": {
+    "hero": "/images/services-plans.webp",
+    "second": "/images/services-training.webp",
+    "heroAlt": "Two workers in hard hats reviewing plans beside concrete slabs",
+    "secondAlt": "Firefighters using a hose during live-fire training",
+    "title": "A practical action plan for your premises",
+    "body": "Explain how the building is used and share any changes since the last assessment. Agree the assessment scope, report format and follow-up support before the visit. An assessment identifies priorities; any remedial work needs a separate agreement."
+  },
+  "fire-door-inspection": {
+    "hero": "/images/services-door.webp",
+    "second": "/images/services-checklist.webp",
+    "heroAlt": "Person checking a door handle and latch",
+    "secondAlt": "Gloved hand completing a checklist on a clipboard",
+    "title": "Know which doors need attention",
+    "body": "A door-by-door record helps you track defects and plan repairs. Share any available installation or certification records. Inspection findings should define the limits of what was checked and identify where further investigation is needed."
+  },
+  "fire-extinguisher-servicing": {
+    "hero": "/images/services-extinguisher.webp",
+    "second": "/images/services-extinguishers.webp",
+    "heroAlt": "Red fire extinguisher against a teal wall",
+    "secondAlt": "Fire extinguishers beside flames during a training exercise",
+    "title": "Keep your equipment records organised",
+    "body": "Share your existing asset list and highlight missing, damaged or discharged units. Confirm whether the quote covers servicing, replacement equipment or additional installation. Equipment selection should reflect the hazards at the premises."
+  },
+  "fire-alarm-installation-testing": {
+    "hero": "/images/services-technician.webp",
+    "second": "/images/services-alarm.webp",
+    "heroAlt": "Technician working inside an open electrical control cabinet",
+    "secondAlt": "Technician installing a ceiling-mounted smoke alarm",
+    "title": "Plan around your building and its occupants",
+    "body": "Tell us whether you need work on an existing system or a proposal for a new installation. The system design, test scope, disruption and responsibilities for ongoing checks should be agreed before work starts."
+  },
+  "emergency-lighting": {
+    "hero": "/images/services-electrical.webp",
+    "second": "/images/services-london.webp",
+    "heroAlt": "Gloved hands testing an electrical panel with probes",
+    "secondAlt": "London buildings and the Thames illuminated at dusk",
+    "title": "Make the testing scope clear",
+    "body": "Different visits may cover a functional check, a duration test or investigation of a fault. Share your current records and agree the work required, including any arrangements needed while batteries recharge after testing."
+  },
+  "smoke-heat-alarms": {
+    "hero": "/images/services-alarm.webp",
+    "second": "/images/services-checklist.webp",
+    "heroAlt": "Technician installing a ceiling-mounted smoke alarm",
+    "secondAlt": "Gloved hand completing a checklist on a clipboard",
+    "title": "Choose an approach for your property",
+    "body": "Alarm requirements depend on the building and how it is used. Share the layout, existing equipment and relevant assessment findings so a suitable scope can be discussed. Confirm what testing and handover information are included."
+  },
+  "fire-strategy-report": {
+    "hero": "/images/services-offices.webp",
+    "second": "/images/services-plans.webp",
+    "heroAlt": "Office buildings beside the River Thames in London",
+    "secondAlt": "Two workers in hard hats reviewing plans beside concrete slabs",
+    "title": "Start with the right project information",
+    "body": "A fire strategy is a specialist document with a different purpose from a routine fire risk assessment. Share your project stage and the decisions the report needs to support. Specialist availability and deliverables must be confirmed before appointment."
+  },
+  "residential-eicr": {
+    "hero": "/images/services-electrical.webp",
+    "second": "/images/services-technician.webp",
+    "heroAlt": "Gloved hands testing an electrical panel with probes",
+    "secondAlt": "Technician working inside an open electrical control cabinet",
+    "title": "Understand the findings before arranging repairs",
+    "body": "An EICR reports the condition of the installation within an agreed scope. Share any previous report and confirm access and power interruption arrangements. Inspection does not automatically include repairs or guarantee a satisfactory outcome."
+  },
+  "commercial-eicr": {
+    "hero": "/images/services-technician.webp",
+    "second": "/images/services-offices.webp",
+    "heroAlt": "Technician working inside an open electrical control cabinet",
+    "secondAlt": "Office buildings beside the River Thames in London",
+    "title": "Schedule testing around your premises",
+    "body": "Commercial testing needs a clear plan for access and any interruption to power. Explain your operating hours, sensitive equipment and areas that cannot be isolated without notice. Agree the report scope and any staged visits in advance."
+  },
+  "pat-testing": {
+    "hero": "/images/services-electrical.webp",
+    "second": "/images/services-checklist.webp",
+    "heroAlt": "Gloved hands testing an electrical panel with probes",
+    "secondAlt": "Gloved hand completing a checklist on a clipboard",
+    "title": "Build a useful equipment record",
+    "body": "An accurate inventory helps define the visit and price. Include shared kitchens, workstations and stored equipment in your enquiry. The appropriate inspection and testing approach depends on the equipment, its use and the environment."
+  },
+  "consumer-unit-replacement": {
+    "hero": "/images/services-technician.webp",
+    "second": "/images/services-electrical.webp",
+    "heroAlt": "Technician working inside an open electrical control cabinet",
+    "secondAlt": "Gloved hands testing an electrical panel with probes",
+    "title": "Agree the upgrade before installation",
+    "body": "A new consumer unit may reveal issues elsewhere in the installation. Share recent reports and confirm whether remedial work is included or quoted separately. Agree the equipment, testing, certification and disruption before the booking."
+  },
+  "gas-safety-check": {
+    "hero": "/images/services-gas.webp",
+    "second": "/images/services-meters.webp",
+    "heroAlt": "Gas meter with regulator and copper pipework",
+    "secondAlt": "Row of gas meters and external pipework",
+    "title": "Know what your gas safety visit covers",
+    "body": "List the appliances to be checked and confirm the engineer’s Gas Safe registration and relevant appliance categories before booking. A safety check and a boiler service cover different tasks; request each explicitly if both are needed."
+  },
+  "carbon-monoxide-alarms": {
+    "hero": "/images/services-cabinet.webp",
+    "second": "/images/services-valve.webp",
+    "heroAlt": "Gas installation cabinet with yellow pipework and a no-flames warning sign",
+    "secondAlt": "Close-up of a pipe valve and handwheel",
+    "title": "Include alarms in your property safety plan",
+    "body": "Share details of existing alarms and fuel-burning appliances. A working alarm complements appropriate appliance maintenance and safety checks. Agree the equipment, positioning and instructions for routine checks before installation."
+  },
+  "asbestos-management-survey": {
+    "hero": "/images/services-plans.webp",
+    "second": "/images/services-building.webp",
+    "heroAlt": "Two workers in hard hats reviewing plans beside concrete slabs",
+    "secondAlt": "Modern building facades beneath a blue sky",
+    "title": "Match the survey to your plans",
+    "body": "Explain whether the premises are in normal use or you are planning works. A management survey and a refurbishment or demolition survey have different scopes. Confirm the survey type, sampling, laboratory arrangements and reporting before commissioning."
+  },
+  "property-safety-management": {
+    "hero": "/images/services-surveyor.webp",
+    "second": "/images/services-checklist.webp",
+    "heroAlt": "Surveyor using a total station beside the Thames near Tower Bridge",
+    "secondAlt": "Gloved hand completing a checklist on a clipboard",
+    "title": "Bring your property information together",
+    "body": "A clear property list and current records make it easier to plan the next steps. Tell us which checks need arranging and where follow-up work is outstanding. Agree the coordination service and responsibilities before work begins."
+  }
+}

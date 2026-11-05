@@ -1,0 +1,112 @@
+{
+  "privacy-policy": {
+    "title": "Privacy policy",
+    "intro": "How information is handled when you visit London Fire Safety Group or contact us.",
+    "sections": [
+      [
+        "Who we are",
+        "London Fire Safety Group is part of Imera AI, our parent company. This notice covers this website and enquiries made directly to us. For privacy questions, email info@imeraai.com and mention London Fire Safety Group. Imera\u2019s corporate website has its own privacy notice."
+      ],
+      [
+        "The current website preview",
+        "The callback form currently runs as a demonstration in your browser. Submitting it does not send or save your entered details, create a booking or trigger a call. Please do not enter sensitive personal information. Information sent separately by email is handled as an enquiry."
+      ],
+      [
+        "Information you provide",
+        "If you contact us directly, we may receive your name, contact details, postcode, service requirements and anything else you choose to include. Please provide only information relevant to your enquiry and avoid sharing payment details, identity documents or sensitive information."
+      ],
+      [
+        "Technical information",
+        "Your browser sends technical information such as your IP address and requested pages to the infrastructure serving this website. Hosting or security providers may process technical logs under their own service arrangements. This website\u2019s application code does not currently include analytics, advertising trackers or persistent storage for callback form entries."
+      ],
+      [
+        "Why information is used",
+        "Direct enquiry information is used to respond, clarify your requirements and manage correspondence. Depending on the request, the applicable basis may be taking steps at your request before entering a contract, legitimate interests in responding and operating the service, or complying with a legal obligation. Where processing relies on consent, you may withdraw it by contacting us."
+      ],
+      [
+        "Sharing information",
+        "Correspondence may be handled by authorised people at Imera AI and service providers supporting communications or website operation. If a live service requires sharing enquiry details with a safety inspection or survey provider, we will explain this before that journey is enabled. Information may also be disclosed where required by law."
+      ],
+      [
+        "AI-assisted enquiries",
+        "No AI callback is triggered by the current demo form. Before a live AI-assisted callback or any call recording is introduced, the enquiry journey and privacy information will be updated to explain what is collected, how it is used, relevant providers and any choices available to you."
+      ],
+      [
+        "Retention and international processing",
+        "Enquiry correspondence should be kept only for as long as needed to handle the request, resolve related matters and meet applicable obligations. The current demo does not create stored form records. Contact us for details of retention or overseas processing relevant to your correspondence; these arrangements must be explained for any future live enquiry service."
+      ],
+      [
+        "Your privacy choices and rights",
+        "Depending on the applicable law and circumstances, you may request access, correction, deletion, restriction or portability of your personal information, or object to processing. Email info@imeraai.com with your request. We may need to verify your identity. You can also raise a concern with the UK Information Commissioner\u2019s Office at ico.org.uk."
+      ],
+      [
+        "Other websites and changes",
+        "Links to Imera AI and other websites lead to services governed by their own notices. We may update this policy as the website changes; the date above identifies the latest revision. Review the current notice before using a newly enabled enquiry feature."
+      ]
+    ]
+  },
+  "cookie-policy": {
+    "title": "Cookie policy",
+    "intro": "A clear explanation of cookies, browser storage and the current website preview.",
+    "sections": [
+      [
+        "What cookies are",
+        "Cookies are small files stored by a website in your browser. Similar technologies include local storage and tracking pixels. They can support website functionality, remember preferences or measure usage."
+      ],
+      [
+        "What this preview uses",
+        "The current application code does not set analytics or advertising cookies and does not use local storage to save callback form entries. The demo form keeps selections in temporary page state, which is cleared when the page is reloaded. Infrastructure serving the website may have its own technical behaviour."
+      ],
+      [
+        "Optional tracking",
+        "No optional analytics or advertising tools are currently integrated in the application. If optional tracking is introduced, we will update this page and provide the relevant choices before enabling it where required."
+      ],
+      [
+        "Your browser controls",
+        "You can inspect, block or delete cookies through your browser\u2019s privacy settings. Blocking some technologies can affect website functionality. Following an external link may take you to a website with different cookie practices."
+      ],
+      [
+        "Questions",
+        "For questions about this website\u2019s cookies or storage, email info@imeraai.com. See our privacy policy for more information about direct enquiries and privacy rights."
+      ]
+    ]
+  },
+  "terms-and-conditions": {
+    "title": "Website terms",
+    "intro": "The terms for using this website and understanding the current London pilot preview.",
+    "sections": [
+      [
+        "About this website",
+        "London Fire Safety Group is part of Imera AI. This website introduces planned fire and property safety enquiry services in London. Contact info@imeraai.com with questions about the website."
+      ],
+      [
+        "Preview and service availability",
+        "The website is a preview of a planned London pilot. Service descriptions are invitations to enquire, and availability depends on the provider, postcode, date and agreed scope. Images illustrate the type of work discussed and do not define the services included in a booking."
+      ],
+      [
+        "Enquiries and bookings",
+        "The current callback form is a demo: it does not send or store your details, arrange a callback or confirm a booking. A live enquiry would begin a conversation only. The provider\u2019s identity, work, price, access requirements, timing and applicable service terms must be agreed before a booking is made."
+      ],
+      [
+        "Prices, payments and cancellations",
+        "This preview does not take payments. Any future quote, payment schedule, cancellation arrangements or refund terms must be supplied by the relevant service provider before you agree to the work. No booking or payment obligation is created by browsing this website."
+      ],
+      [
+        "Using the website",
+        "Use the website lawfully and provide accurate information when contacting us. Do not interfere with its operation, attempt unauthorised access or use it to send harmful or misleading content. Only share personal information that you are entitled to provide."
+      ],
+      [
+        "Website content and external links",
+        "Website materials are provided for general information. Content may be updated as the pilot develops. External websites have their own terms and privacy notices. Rights in website content and branding belong to their respective owners; contact us before reusing materials commercially."
+      ],
+      [
+        "Responsibility and your rights",
+        "We aim to keep website information accurate, but planned services and availability may change. Nothing in these terms excludes responsibility that cannot lawfully be excluded or limits your statutory consumer rights. Terms for actual safety inspection, installation or survey work will be provided separately before a booking."
+      ],
+      [
+        "Changes and contact",
+        "We may update these website terms as the service develops. The revision date appears above. For questions or concerns, email info@imeraai.com and describe the page or enquiry involved."
+      ]
+    ]
+  }
+}
