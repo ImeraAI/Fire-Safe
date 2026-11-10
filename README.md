@@ -40,3 +40,6 @@ The hero follows the supplied Maverick screenshot composition. Lower sections fo
 
 Before launch: connect the callback integration server-side, confirm available services and postcode coverage, supply approved privacy/contact content and enable indexing when the page is ready.
 
+<!-- Project update comment for git commit -->
+
+
