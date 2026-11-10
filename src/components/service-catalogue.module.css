@@ -14,6 +14,7 @@
 .cardFade { position: absolute; inset: 0; background: linear-gradient(90deg,#f1efed 0%,#f1efed 25%,#f1efedf0 33%,#f1efed7a 48%,#f1efed00 67%); z-index: -2; }
 .cardCopy { padding: 28px; width: 100%; }
 .cardCopy>svg { width: 30px; height: 30px; color: var(--accent); margin-bottom: 10px; }
+.mobileCardIcon { display: none; }
 .cardCopy h3 { font-size: clamp(24px, 2vw, 28px); line-height: 1.15; font-weight: 700; letter-spacing: -.6px; overflow-wrap: break-word; }
 .cardCopy p { max-width: 30ch; color: #35494c; font-size: 15px; line-height: 1.5; margin-top: 12px; }
 .cardCta { display: inline-flex; align-items: center; gap: 16px; border-radius: 40px; background: #061f2d; color: white; padding: 11px 18px; min-height: 44px; font-size: 13px; font-weight: 600; margin-top: 20px; }
@@ -93,16 +94,24 @@
   .intro h2 { font-size: 33px; letter-spacing: -1px; margin-top: 20px; }
   .intro p { font-size: 14px; margin-top: 17px; }
   .intro br { display: none; }
-  .categoryCards { grid-template-columns: 1fr; gap: 18px; }
-  .categoryCard { flex-direction: column; min-height: 0; border: 1px solid #cbd3de; border-radius: 14px; background: white; }
-  .cardPhoto { position: relative; inset: auto; z-index: auto; width: 100%; height: clamp(130px, 40vw, 210px); }
-  .cardFade { display: none; }
-  .cardCopy { padding: 20px; }
-  .cardCopy h3 { font-size: 26px; }
-  .cardCopy>svg { width: 28px; height: 28px; }
-  .cardCopy p { max-width: none; font-size: 15px; }
-  .cardCta { display: flex; justify-content: space-between; margin-top: 18px; border-radius: 8px; font-size: 14px; }
-  .categoryCard:active .cardCta { background: var(--red); }
+  .categoryCards { grid-template-columns: 1fr; gap: 14px; }
+  .categoryCard { min-height: clamp(200px, 55vw, 245px); border-color: #1a3850; border-radius: 18px; background: #0a2139; color: white; box-shadow: 0 9px 16px -8px #061f2d72; }
+  .cardPhoto { left: 18%; }
+  .cardPhoto img { object-position: var(--mobile-photo-position, center); }
+  .categoryCard[data-category="fire-safety"] { --mobile-photo-position: 84% center; }
+  .categoryCard[data-category="gas-safety"] { --mobile-photo-position: 68% center; }
+  .categoryCard[data-category="property-surveys"] { --mobile-photo-position: 26% center; }
+  .cardFade { background: linear-gradient(90deg, #0a2139 10%, #0a2139f5 32%, #0a2139dc 52%, #0a213986 69%, #0a213918 100%); }
+  .cardCopy { width: 69%; padding: 22px 8px 22px 18px; }
+  .cardCopy>svg { display: none; }
+  .mobileCardIcon { display: grid; place-items: center; width: 44px; height: 44px; margin-bottom: 12px; border: 1px solid #d4ebe5a8; border-radius: 14px; background: #194450b0; }
+  .mobileCardIcon svg { width: 26px; height: 26px; }
+  .cardCopy h3 { font-size: clamp(20px, 5.8vw, 28px); }
+  .cardCopy p { margin-top: 7px; color: #e9f0f5; font-size: 14px; line-height: 1.45; }
+  .cardCta { position: absolute; right: 13px; bottom: 13px; display: grid; place-items: center; width: 42px; min-height: 42px; margin: 0; padding: 0; background: #bf1933; }
+  .cardCta>span { display: none; }
+  .cardCta svg { width: 22px; height: 22px; stroke-width: 2; }
+  .categoryCard:is(:hover, :active) .cardCta { background: #a1132a; }
   .reassurance { display: none; }
   .reassurance>div { justify-content: flex-start; padding: 0; }
   .reassurance>div+div { border-left: 0; }
@@ -112,7 +121,7 @@
   .allHeading h2 { font-size: 29px; }
   .allServices { grid-template-columns: 1fr; gap: 40px; margin-top: 30px; }
   .groupHeading h2 { font-size: 24px; }
-  .categoryCard, .serviceRow { box-shadow: 0 4px 12px #061f2d12; }
+  .serviceRow { box-shadow: 0 4px 12px #061f2d12; }
   .serviceRow, .pageList .serviceRow {
     position: relative;
     margin-top: 12px;

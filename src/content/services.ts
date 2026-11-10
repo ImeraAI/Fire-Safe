@@ -6,8 +6,8 @@ export const serviceGroups = [
     "icon": "shield",
     "heading": "Fire safety services in London",
     "description": "Understand the risks, check your protective systems and plan the next steps for your building. Explore assessments, inspections and maintenance enquiries.",
-    "image": "/images/cleaning-service-provided.webp",
-    "alt": "Living room with a cream sofa and green cushion",
+    "image": "/images/services-equipment.webp",
+    "alt": "Fire extinguishers and safety equipment lined up for inspection",
     "services": [
       {
         "slug": "fire-risk-assessment",
@@ -52,8 +52,8 @@ export const serviceGroups = [
     "icon": "shield",
     "heading": "Electrical safety services in London",
     "description": "Arrange enquiries for fixed wiring inspections, appliance testing and electrical upgrades for homes, rental properties and commercial premises.",
-    "image": "/images/moving-service-provided.webp",
-    "alt": "Packed cardboard boxes and hand trolley in a room",
+    "image": "/images/services-electrical.webp",
+    "alt": "Technician testing a row of circuit breakers",
     "services": [
       {
         "slug": "residential-eicr",
@@ -83,8 +83,8 @@ export const serviceGroups = [
     "icon": "shield",
     "heading": "Gas & carbon monoxide safety services in London",
     "description": "Discuss gas appliance checks and carbon monoxide alarm requirements for your property, with the provider and exact scope confirmed before booking.",
-    "image": "/images/cleaning-service-provided.webp",
-    "alt": "Living room with a cream sofa and green cushion",
+    "image": "/images/services-gas.webp",
+    "alt": "Gas meter and pipework installed on an interior wall",
     "services": [
       {
         "slug": "gas-safety-check",
@@ -104,8 +104,8 @@ export const serviceGroups = [
     "icon": "shield",
     "heading": "Property surveys & management services in London",
     "description": "Plan specialist surveys and organise safety requirements across a single property or a portfolio, starting with the records and priorities you already have.",
-    "image": "/images/moving-service-provided.webp",
-    "alt": "Packed cardboard boxes and hand trolley in a room",
+    "image": "/images/services-surveyor.webp",
+    "alt": "Surveyor using a tripod-mounted instrument beside the Thames",
     "services": [
       {
         "slug": "asbestos-management-survey",
@@ -120,6 +120,41 @@ export const serviceGroups = [
     ]
   }
 ] as const;
+
+export const serviceCards = {
+  'fire-safety': {
+    title: 'Fire safety',
+    icon: 'extinguisher',
+    summary: 'Assessments, alarms, fire doors and equipment checks.',
+    cta: 'Explore fire safety',
+    image: '/images/fire-safety-card.webp',
+    alt: 'Red fire extinguisher against a teal wall',
+  },
+  'electrical-safety': {
+    title: 'Electrical safety',
+    icon: 'bolt',
+    summary: 'Wiring inspections, appliance testing and upgrades.',
+    cta: 'Explore electrical safety',
+    image: '/images/electrical-safety-card.webp',
+    alt: 'Gloved hands testing an electrical panel with probes',
+  },
+  'gas-safety': {
+    title: 'Gas safety',
+    icon: 'flame',
+    summary: 'Gas appliance checks and carbon monoxide alarms.',
+    cta: 'Explore gas safety',
+    image: '/images/gas-safety-card.webp',
+    alt: 'Gas installation cabinet with yellow pipework and a no-flames warning sign',
+  },
+  'property-surveys': {
+    title: 'Property surveys',
+    icon: 'home',
+    summary: 'Asbestos surveys and property safety coordination.',
+    cta: 'Explore surveys',
+    image: '/images/property-surveys-card-updated.webp',
+    alt: 'Surveyor in a white hard hat using a tablet beside a total station near Tower Bridge',
+  },
+} satisfies Record<(typeof serviceGroups)[number]['id'], { title: string; icon: string; summary: string; cta: string; image: string; alt: string }>;
 
 export const serviceDetails: Record<string, { image: string; alt: string; intro: string; scope: string[]; prepare: string[] }> = {
   "fire-risk-assessment": {
