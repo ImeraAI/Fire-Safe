@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import { Icon } from './icon';
 import { serviceGroups } from '@/content/services';
@@ -38,7 +36,7 @@ export function ServiceCatalogue() {
     <div className={styles.allServices}>
       {serviceGroups.map(group => <section id={group.id} key={group.id} aria-labelledby={group.id + '-heading'} className={styles.serviceGroup}>
         <div className={styles.groupHeading}><Icon name={group.icon} /><h2 id={group.id + '-heading'}>{group.heading}</h2></div>
-        {group.services.map(service => <article id={service.slug} key={service.slug} className={styles.serviceRow}><h3><a href={'/' + group.id + '/' + service.slug}><span className={styles.serviceIcon}><Icon name={group.icon} /></span><span>{service.name}</span></a></h3><p>{service.body}</p></article>)}
+        {group.services.map(service => <article id={service.slug} key={service.slug} className={styles.serviceRow}><h3><a href={'/' + group.id + '/' + service.slug}><span className={styles.serviceIcon}><Icon name={group.icon} /></span><span>{service.name}</span></a></h3><p>{service.body}</p><span className={styles.cardDetails} aria-hidden="true">View details <Icon name="arrow" /></span></article>)}
         <a className={styles.groupLink} href={'/' + group.id}>Explore all {group.name.toLowerCase()} <Icon name="arrow" /></a>
       </section>)}
     </div>

@@ -38,8 +38,9 @@
 .serviceRow h3 a { display: flex; align-items: center; gap: 14px; min-height: 44px; padding-block: 7px; }
 .serviceIcon { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 42px; width: 42px; height: 42px; border-radius: 12px; color: var(--navy); background: var(--soft); }
 .serviceIcon svg { width: 24px; height: 24px; }
-.serviceRow h3 a>svg { width: 18px; height: 18px; color: var(--accent); flex-shrink: 0; }
+.cardDetails { display: none; }
 .serviceRow h3 a:hover { color: var(--accent); }
+.serviceRow h3 a:focus-visible { outline: 2px solid var(--navy); outline-offset: 4px; }
 .serviceRow p { font-size: 14px; line-height: 1.65; margin-top: 6px; max-width: 520px; }
 .serviceRow:target { background: #f5f6f8; outline: 2px solid #cbd3de; outline-offset: 8px; }
 .groupLink { display: inline-flex; align-items: center; gap: 18px; min-height: 48px; color: var(--accent); font-size: 13px; font-weight: 600; margin-top: 19px; }
@@ -93,13 +94,15 @@
   .intro p { font-size: 14px; margin-top: 17px; }
   .intro br { display: none; }
   .categoryCards { grid-template-columns: 1fr; gap: 18px; }
-  .categoryCard { min-height: 250px; border-radius: 14px; }
-  .cardCopy { padding: 27px; }
+  .categoryCard { flex-direction: column; min-height: 0; border: 1px solid #cbd3de; border-radius: 14px; background: white; }
+  .cardPhoto { position: relative; inset: auto; z-index: auto; width: 100%; height: clamp(130px, 40vw, 210px); }
+  .cardFade { display: none; }
+  .cardCopy { padding: 20px; }
   .cardCopy h3 { font-size: 26px; }
   .cardCopy>svg { width: 28px; height: 28px; }
-  .cardCopy p { font-size: 15px; }
-  .cardCta { margin-top: 18px; }
-  .cardPhoto { left: 24%; }
+  .cardCopy p { max-width: none; font-size: 15px; }
+  .cardCta { display: flex; justify-content: space-between; margin-top: 18px; border-radius: 8px; font-size: 14px; }
+  .categoryCard:active .cardCta { background: var(--red); }
   .reassurance { display: none; }
   .reassurance>div { justify-content: flex-start; padding: 0; }
   .reassurance>div+div { border-left: 0; }
@@ -109,9 +112,39 @@
   .allHeading h2 { font-size: 29px; }
   .allServices { grid-template-columns: 1fr; gap: 40px; margin-top: 30px; }
   .groupHeading h2 { font-size: 24px; }
-  .serviceRow { padding-block: 18px; }
-  .serviceRow h3 a { min-height: 44px; }
-  .serviceRow p { font-size: 14px; }
+  .categoryCard, .serviceRow { box-shadow: 0 4px 12px #061f2d12; }
+  .serviceRow, .pageList .serviceRow {
+    position: relative;
+    margin-top: 12px;
+    padding: 16px;
+    border: 1px solid #cbd3de;
+    border-radius: 12px;
+    background: white;
+  }
+  .serviceRow h3 a::after { content: ''; position: absolute; inset: 0; border-radius: 11px; }
+  .serviceRow h3 a:focus-visible { outline: none; }
+  .serviceRow h3 a:focus-visible::after { outline: 2px solid var(--navy); outline-offset: 3px; }
+  .serviceRow:has(h3 a:active) { border-color: var(--navy); background: var(--soft); }
+  .cardDetails {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .cardDetails svg { width: 16px; height: 16px; }
+  .cardCopy p, .serviceRow p, .relatedCard p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .serviceRow .requestLink { position: relative; z-index: 1; text-decoration: underline; text-underline-offset: 4px; }
+  .serviceRow .cardDetails { display: flex; }
   .together { display: block; padding: 25px 22px; margin-top: 28px; }
   .together>a { width: 100%; margin-top: 22px; }
   .availability { line-height: 1.6; }
@@ -136,13 +169,14 @@
 .relatedGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .relatedCard { padding: 25px; border: 1px solid var(--line); border-radius: 12px; transition: border-color .2s, background .2s; }
 .relatedCard:hover, .relatedCard:active { border-color: var(--navy); background: var(--soft); }
-.relatedCard:focus-visible, .serviceRow h3 a:focus-visible { outline: 2px solid var(--navy); outline-offset: 4px; }
+.relatedCard:focus-visible { outline: 2px solid var(--navy); outline-offset: 4px; }
 .relatedCard h3 { display: flex; align-items: center; gap: 14px; font-size: 18px; line-height: 1.4; }
 .relatedCard p { font-size: 14px; margin-top: 12px; }
 @media(max-width:700px) {
   .detailColumns, .relatedGrid { grid-template-columns: 1fr; gap: 22px; }
   .detailColumns { padding-block: 15px 30px; }
   .detailPanel { padding: 22px; }
+  .relatedCard { padding: 16px; border-color: #cbd3de; box-shadow: 0 4px 12px #061f2d12; }
 }
 
 .naturalPhoto { width: 100%; min-width: 0; aspect-ratio: 3 / 2; max-height: 420px; overflow: hidden; border-radius: 16px; background: var(--soft); }
